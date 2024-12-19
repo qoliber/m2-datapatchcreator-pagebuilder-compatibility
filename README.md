@@ -9,7 +9,7 @@ Plugin for PageBuilder to remove encoding of HTML special characters done by
 
 Installation is via `composer`
 ```
-composer require enanobots/m2-datapatchcreator-pagebuilder
+composer require qoliber/m2-datapatchcreator-pagebuilder-compatibility
 ```
 
 After installing the packages just run:
@@ -18,10 +18,12 @@ php bin/magento setup:upgrade
 ```
 
 ### Requirements:
-* Main Package: https://packagist.org/packages/enanobots/m2-datapatchcreator (installed with the module)
-* `PHP 7.4` or higher
+
+* Main Package: https://packagist.org/packages/qoliber/datapatchcreator (installed with the module)
+* `PHP 8.1` or higher
 * `Magento 2.4.3` or higher
 
 ### Tested on:
+
 * `Magento 2.4.3` OpenSource with Page Builder
 * `Magento 2.4.3-p1` OpenSource with Page Builder

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+/**
+ * Copyright © Qoliber. All rights reserved.
+ *
+ * @category    Qoliber
+ * @package     Qoliber_DataPatchCreatorPageBuilder
+ * @author      Jakub Winkler <jwinkler@qoliber.com
+ * @author      Sebastian Strojwas <sebastian@qoliber.com>
+ * @author      Wojciech M. Wnuk <wwnuk@qoliber.com>
+ */
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\PageBuilder\Model\Filter\Template">
+        <plugin name="skipFilterForDataPatchCreator" type="Qoliber\DataPatchCreatorPageBuilder\Plugin\PageBuilder\Filter\Template"/>
+    </type>
+</config>
